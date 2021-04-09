@@ -1,0 +1,1087 @@
+$primaryColor : #0c0c0c;
+$greyText : rgb(145, 145, 145);
+$accent : #ba000d;
+
+a {
+    color: $primaryColor;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $accent;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: $primaryColor;
+    color: white;
+
+    a {
+        color: white;
+    }
+
+
+    .footerContent {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+
+        h1 {
+            margin-right: 100px;
+            margin-top: 0px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin-right: 100px;
+
+            span {
+                margin-bottom: 10px;
+            }
+        }
+
+    }
+}
+
+.articleItem {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+    img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    h3 {
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .postedDate {
+        font-size: 12px;
+        color: $greyText;
+        font-weight: 200;
+        margin-right: 20px;
+    }
+
+    .metaContainer {
+        margin-top: auto;
+    }
+
+}
+
+.articleItemHorizontal {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+
+
+
+    img {
+        width: 40%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    p {
+        margin-top: 0px;
+        color: $greyText;
+        text-align: justify;
+
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .articleItemHorizontalContent {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+
+        .categoryText {
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            color: $primaryColor;
+        }
+
+        .metaContainer {
+            color: $greyText;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+
+            .meta {
+                font-size: 14px;
+                margin-right: 20px;
+            }
+        }
+    }
+
+}
+
+.commentItem {
+    display: flex;
+    margin-bottom: 30px;
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .commentText {
+        margin-top: 5px;
+        background-color: rgb(235, 235, 235);
+        color: $primaryColor;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
+
+    span {
+        margin-top: 0px;
+    }
+}
+
+.contentSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .contentSectionLeft {
+        width: 65%;
+
+
+        .contentSectionLeftContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .loadMoreButtonContainer {
+            text-align: center;
+            margin-bottom: 50px;
+
+            button {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                background-color: $primaryColor;
+                color: white;
+                border-style: none;
+                border-radius: 0px;
+            }
+        }
+
+    }
+
+    .contentSectionRight {
+        width: 30%;
+        padding-left: 30px;
+    }
+
+}
+
+.header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+}
+
+
+
+.heroSection {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .heroLeft {
+        width: 62%;
+        padding-right: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+
+        .heroMainImage {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            flex: 1;
+            max-height: 350px;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .descriptionText {
+            color: $greyText;
+        }
+
+        div {
+            margin-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        .postedDate {
+            color: $greyText;
+            margin-right: 20px;
+        }
+    }
+
+    .heroRight {
+        width: 38%;
+        display: flex;
+        flex-direction: "row";
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.navBar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    display: flex;
+    flex-direction: "row";
+    justify-content: space-between;
+
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+
+        color: rgb(197, 197, 197);
+    }
+}
+
+.navContainer {
+    background-color: $primaryColor;
+    position: sticky;
+    top: 0;
+}
+
+.pageContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    .categoryText {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .postContainerLeft {
+        width: 70%;
+    }
+
+    .postContainerRight {
+        width: 27%;
+
+    }
+
+    p {
+        margin: 0px
+    }
+
+    h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .mainImage {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    span {
+        font-size: 12px;
+        margin-right: 20px;
+        margin-top: 20px;
+        color: $greyText;
+    }
+
+    .descriptionText {
+        margin-bottom: 20px;
+        margin-top: 0px;
+
+
+        word-wrap: break-word;
+
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .commentSection {
+        textarea {
+            width: 100%;
+            border-style: none;
+            border-radius: 10px;
+            background-color: rgb(226, 226, 226);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .submitButtonContainer {
+            text-align: right;
+            margin-top: 10px;
+
+            button {
+                background-color: $primaryColor;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-style: none;
+                color: white;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: $accent;
+            }
+        }
+
+        .comments {
+            margin-bottom: 50px;
+        }
+    }
+
+
+}
+
+.sideNewsItem {
+    display: flex;
+    margin-bottom: 30px;
+
+    img {
+        width: 30%;
+        object-fit: cover;
+        height: 80px;
+    }
+
+    div {
+        padding-left: 10px;
+
+        h4 {
+            margin-top: 0px;
+            margin-bottom: 5px;
+            font-weight: 200;
+        }
+
+        .meta {
+            font-size: 12px;
+            color: $greyText;
+        }
+    }
+}
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .articleItemHorizontal {
+        display: block;
+        flex-direction: row;
+        margin-bottom: 50px;
+
+
+
+        img {
+            width: 100%;
+            height: 150px;
+        }
+
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        p {
+            margin-top: 0px;
+            color: $greyText;
+            text-align: justify;
+
+            word-wrap: break-word;
+
+            -ms-word-break: break-all;
+            /* This is the dangerous one in WebKit, as it breaks things wherever */
+            word-break: break-all;
+            /* Instead use this non-standard one: */
+            word-break: break-word;
+
+            /* Adds a hyphen where the word breaks, if supported (No Blink) */
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+
+        .articleItemHorizontalContent {
+            padding-left: 0px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .categoryText {
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                color: $primaryColor;
+            }
+
+            .metaContainer {
+                color: $greyText;
+                display: block;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: auto;
+
+                .meta {
+                    font-size: 14px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+    }
+
+
+    .contentSection {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .contentSectionLeft {
+            width: 100%;
+
+
+            .contentSectionLeftContainer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .loadMoreButtonContainer {
+                text-align: center;
+                margin-bottom: 50px;
+
+                button {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    background-color: $primaryColor;
+                    color: white;
+                    border-style: none;
+                    border-radius: 0px;
+                }
+            }
+
+        }
+
+        .contentSectionRight {
+            width: 100%;
+            padding-left: 0px;
+        }
+
+    }
+
+    #mobileMenuContainer {
+        max-height: 0px;
+        overflow: hidden;
+
+        transition: max-height .5s ease-in-out;
+    }
+
+    .mobileMenu {
+        background-color: $accent;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+
+
+
+        a {
+            color: white;
+            font-size: 20px;
+        }
+
+        span {
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+
+    .navContainer {
+        display: none;
+    }
+
+    .postContainer {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        display: block;
+        justify-content: space-between;
+
+        .categoryText {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .postContainerLeft {
+            width: 100%;
+        }
+
+        .postContainerRight {
+            width: 100%;
+
+        }
+
+        p {
+            margin: 0px
+        }
+
+        h1 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        hr {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: block;
+        }
+
+        .mainImage {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        span {
+            font-size: 12px;
+            margin-right: 20px;
+            margin-top: 20px;
+            color: $greyText;
+        }
+
+        .descriptionText {
+            text-align: justify;
+            margin-bottom: 20px;
+            margin-top: 0px;
+
+
+            word-wrap: break-word;
+
+            -ms-word-break: break-all;
+            /* This is the dangerous one in WebKit, as it breaks things wherever */
+            word-break: break-all;
+            /* Instead use this non-standard one: */
+            word-break: break-word;
+
+            /* Adds a hyphen where the word breaks, if supported (No Blink) */
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+
+        .commentSection {
+            textarea {
+                width: 100%;
+                border-style: none;
+                border-radius: 10px;
+                background-color: rgb(226, 226, 226);
+                padding: 20px;
+                box-sizing: border-box;
+            }
+
+            .submitButtonContainer {
+                text-align: right;
+                margin-top: 10px;
+                margin-bottom: 50px;
+
+                button {
+                    background-color: $primaryColor;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    border-style: none;
+                    color: white;
+                    cursor: pointer;
+                    width: 100%;
+                }
+
+                button:hover {
+                    background-color: $accent;
+                }
+            }
+
+            .comments {
+                margin-bottom: 50px;
+            }
+        }
+
+
+    }
+
+
+    footer {
+        background-color: $primaryColor;
+        color: white;
+
+        a {
+            color: white;
+        }
+
+
+        .footerContent {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: block;
+            flex-direction: row;
+            text-align: center;
+
+            h1 {
+                margin-right: 0px;
+                margin-top: 0px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-right: 0px;
+
+                span {
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+    }
+
+    .header {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+            display: block;
+        }
+    }
+
+
+    .heroSection {
+        margin-top: 0px;
+        display: block;
+
+
+        .heroLeft {
+            width: 100%;
+            padding-right: 0px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+
+            .heroMainImage {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                flex: 1;
+                max-height: 350px;
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            h2 {
+                font-weight: bold;
+                font-size: 25px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: justify;
+            }
+
+            .descriptionText {
+                color: $greyText;
+            }
+
+            div {
+                margin-top: 10px;
+                padding-bottom: 20px;
+            }
+
+            .postedDate {
+                color: $greyText;
+                margin-right: 20px;
+            }
+        }
+
+        .heroRight {
+            width: 100%;
+            display: flex;
+            flex-direction: "row";
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 992px) {
+    .articleItemHorizontal {
+        display: block;
+        flex-direction: row;
+        margin-bottom: 50px;
+
+
+
+        img {
+            width: 100%;
+            height: 150px;
+        }
+
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        p {
+            margin-top: 0px;
+            color: $greyText;
+            text-align: justify;
+
+            word-wrap: break-word;
+
+            -ms-word-break: break-all;
+            /* This is the dangerous one in WebKit, as it breaks things wherever */
+            word-break: break-all;
+            /* Instead use this non-standard one: */
+            word-break: break-word;
+
+            /* Adds a hyphen where the word breaks, if supported (No Blink) */
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+
+        .articleItemHorizontalContent {
+            padding-left: 0px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+
+            .categoryText {
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                color: $primaryColor;
+            }
+
+            .metaContainer {
+                color: $greyText;
+                display: block;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: auto;
+
+                .meta {
+                    font-size: 14px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+    }
+
+
+    .contentSection {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .contentSectionLeft {
+            width: 100%;
+
+
+            .contentSectionLeftContainer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .loadMoreButtonContainer {
+                text-align: center;
+                margin-bottom: 50px;
+
+                button {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    background-color: $primaryColor;
+                    color: white;
+                    border-style: none;
+                    border-radius: 0px;
+                }
+            }
+
+        }
+
+        .contentSectionRight {
+            width: 100%;
+            padding-left: 0px;
+        }
+
+    }
+
+    .mobileMenu {
+        background-color: $accent;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        a {
+            color: white;
+            font-size: 20px;
+        }
+
+        span {
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+
+    .navContainer {
+        display: none;
+    }
+
+    footer {
+        background-color: $primaryColor;
+        color: white;
+
+        a {
+            color: white;
+        }
+
+
+        .footerContent {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: block;
+            flex-direction: row;
+            text-align: center;
+
+            h1 {
+                margin-right: 0px;
+                margin-top: 0px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-right: 0px;
+
+                span {
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+    }
+
+
+    .heroSection {
+        margin-top: 0px;
+        display: block;
+
+
+        .heroLeft {
+            width: 100%;
+            padding-right: 0px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+
+            .heroMainImage {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                flex: 1;
+                max-height: 350px;
+            }
+
+            p {
+                margin: 0px;
+            }
+
+            h2 {
+                font-weight: bold;
+                font-size: 25px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: justify;
+            }
+
+            .descriptionText {
+                color: $greyText;
+            }
+
+            div {
+                margin-top: 10px;
+                padding-bottom: 20px;
+            }
+
+            .postedDate {
+                color: $greyText;
+                margin-right: 20px;
+            }
+        }
+
+        .heroRight {
+            width: 100%;
+            display: flex;
+            flex-direction: "row";
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+}
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

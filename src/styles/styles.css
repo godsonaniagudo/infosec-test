@@ -1,0 +1,1138 @@
+a {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ba000d;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+  background-color: #0c0c0c;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer .footerContent {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .footerContent h1 {
+  margin-right: 100px;
+  margin-top: 0px;
+}
+
+footer .footerContent div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 100px;
+}
+
+footer .footerContent div span {
+  margin-bottom: 10px;
+}
+
+.articleItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.articleItem img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.articleItem h3 {
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.articleItem .postedDate {
+  font-size: 12px;
+  color: #919191;
+  font-weight: 200;
+  margin-right: 20px;
+}
+
+.articleItem .metaContainer {
+  margin-top: auto;
+}
+
+.articleItemHorizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.articleItemHorizontal img {
+  width: 40%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.articleItemHorizontal h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.articleItemHorizontal p {
+  margin-top: 0px;
+  color: #919191;
+  text-align: justify;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.articleItemHorizontal .articleItemHorizontalContent {
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+}
+
+.articleItemHorizontal .articleItemHorizontalContent .categoryText {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #0c0c0c;
+}
+
+.articleItemHorizontal .articleItemHorizontalContent .metaContainer {
+  color: #919191;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: auto;
+}
+
+.articleItemHorizontal .articleItemHorizontalContent .metaContainer .meta {
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.commentItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.commentItem img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.commentItem .commentText {
+  margin-top: 5px;
+  background-color: #ebebeb;
+  color: #0c0c0c;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.commentItem span {
+  margin-top: 0px;
+}
+
+.contentSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contentSection .contentSectionLeft {
+  width: 65%;
+}
+
+.contentSection .contentSectionLeft .contentSectionLeftContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contentSection .contentSectionLeft .loadMoreButtonContainer {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contentSection .contentSectionLeft .loadMoreButtonContainer button {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #0c0c0c;
+  color: white;
+  border-style: none;
+  border-radius: 0px;
+}
+
+.contentSection .contentSectionRight {
+  width: 30%;
+  padding-left: 30px;
+}
+
+.header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.heroSection {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heroSection .heroLeft {
+  width: 62%;
+  padding-right: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heroSection .heroLeft .heroMainImage {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-height: 350px;
+}
+
+.heroSection .heroLeft p {
+  margin: 0px;
+}
+
+.heroSection .heroLeft h2 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.heroSection .heroLeft .descriptionText {
+  color: #919191;
+}
+
+.heroSection .heroLeft div {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.heroSection .heroLeft .postedDate {
+  color: #919191;
+  margin-right: 20px;
+}
+
+.heroSection .heroRight {
+  width: 38%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.navBar {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navBar a {
+  color: white;
+}
+
+.navBar a:hover {
+  color: #c5c5c5;
+}
+
+.navContainer {
+  background-color: #0c0c0c;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.pageContainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postContainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.postContainer .categoryText {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.postContainer .postContainerLeft {
+  width: 70%;
+}
+
+.postContainer .postContainerRight {
+  width: 27%;
+}
+
+.postContainer p {
+  margin: 0px;
+}
+
+.postContainer h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.postContainer hr {
+  display: none;
+}
+
+.postContainer .mainImage {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.postContainer span {
+  font-size: 12px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #919191;
+}
+
+.postContainer .descriptionText {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.postContainer .commentSection textarea {
+  width: 100%;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #e2e2e2;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.postContainer .commentSection .submitButtonContainer {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.postContainer .commentSection .submitButtonContainer button {
+  background-color: #0c0c0c;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+
+.postContainer .commentSection .submitButtonContainer button:hover {
+  background-color: #ba000d;
+}
+
+.postContainer .commentSection .comments {
+  margin-bottom: 50px;
+}
+
+.sideNewsItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.sideNewsItem img {
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 80px;
+}
+
+.sideNewsItem div {
+  padding-left: 10px;
+}
+
+.sideNewsItem div h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: 200;
+}
+
+.sideNewsItem div .meta {
+  font-size: 12px;
+  color: #919191;
+}
+
+@media (max-width: 576px) {
+  .articleItemHorizontal {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .articleItemHorizontal img {
+    width: 100%;
+    height: 150px;
+  }
+  .articleItemHorizontal h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .articleItemHorizontal p {
+    margin-top: 0px;
+    color: #919191;
+    text-align: justify;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent {
+    padding-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent .categoryText {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0c0c0c;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent .metaContainer {
+    color: #919191;
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: auto;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent .metaContainer .meta {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .contentSection {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contentSection .contentSectionLeft {
+    width: 100%;
+  }
+  .contentSection .contentSectionLeft .contentSectionLeftContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contentSection .contentSectionLeft .loadMoreButtonContainer {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .contentSection .contentSectionLeft .loadMoreButtonContainer button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0c0c0c;
+    color: white;
+    border-style: none;
+    border-radius: 0px;
+  }
+  .contentSection .contentSectionRight {
+    width: 100%;
+    padding-left: 0px;
+  }
+  #mobileMenuContainer {
+    max-height: 0px;
+    overflow: hidden;
+    -webkit-transition: max-height .5s ease-in-out;
+    transition: max-height .5s ease-in-out;
+  }
+  .mobileMenu {
+    background-color: #ba000d;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  .mobileMenu a {
+    color: white;
+    font-size: 20px;
+  }
+  .mobileMenu span {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .navContainer {
+    display: none;
+  }
+  .postContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .postContainer .categoryText {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .postContainer .postContainerLeft {
+    width: 100%;
+  }
+  .postContainer .postContainerRight {
+    width: 100%;
+  }
+  .postContainer p {
+    margin: 0px;
+  }
+  .postContainer h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .postContainer hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .postContainer .mainImage {
+    width: 100%;
+    height: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .postContainer span {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #919191;
+  }
+  .postContainer .descriptionText {
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .postContainer .commentSection textarea {
+    width: 100%;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .postContainer .commentSection .submitButtonContainer {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .postContainer .commentSection .submitButtonContainer button {
+    background-color: #0c0c0c;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  .postContainer .commentSection .submitButtonContainer button:hover {
+    background-color: #ba000d;
+  }
+  .postContainer .commentSection .comments {
+    margin-bottom: 50px;
+  }
+  footer {
+    background-color: #0c0c0c;
+    color: white;
+  }
+  footer a {
+    color: white;
+  }
+  footer .footerContent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+  }
+  footer .footerContent h1 {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  footer .footerContent div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0px;
+  }
+  footer .footerContent div span {
+    margin-bottom: 10px;
+  }
+  .header {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header img {
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  .heroSection {
+    margin-top: 0px;
+    display: block;
+  }
+  .heroSection .heroLeft {
+    width: 100%;
+    padding-right: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .heroSection .heroLeft .heroMainImage {
+    width: 100%;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-height: 350px;
+  }
+  .heroSection .heroLeft p {
+    margin: 0px;
+  }
+  .heroSection .heroLeft h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .heroSection .heroLeft .descriptionText {
+    color: #919191;
+  }
+  .heroSection .heroLeft div {
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  .heroSection .heroLeft .postedDate {
+    color: #919191;
+    margin-right: 20px;
+  }
+  .heroSection .heroRight {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: "row";
+            flex-direction: "row";
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  .articleItemHorizontal {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .articleItemHorizontal img {
+    width: 100%;
+    height: 150px;
+  }
+  .articleItemHorizontal h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .articleItemHorizontal p {
+    margin-top: 0px;
+    color: #919191;
+    text-align: justify;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    /* This is the dangerous one in WebKit, as it breaks things wherever */
+    word-break: break-all;
+    /* Instead use this non-standard one: */
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent {
+    padding-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent .categoryText {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0c0c0c;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent .metaContainer {
+    color: #919191;
+    display: block;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: auto;
+  }
+  .articleItemHorizontal .articleItemHorizontalContent .metaContainer .meta {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .contentSection {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contentSection .contentSectionLeft {
+    width: 100%;
+  }
+  .contentSection .contentSectionLeft .contentSectionLeftContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contentSection .contentSectionLeft .loadMoreButtonContainer {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .contentSection .contentSectionLeft .loadMoreButtonContainer button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #0c0c0c;
+    color: white;
+    border-style: none;
+    border-radius: 0px;
+  }
+  .contentSection .contentSectionRight {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .mobileMenu {
+    background-color: #ba000d;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .mobileMenu a {
+    color: white;
+    font-size: 20px;
+  }
+  .mobileMenu span {
+    color: white;
+    margin-bottom: 20px;
+  }
+  .navContainer {
+    display: none;
+  }
+  footer {
+    background-color: #0c0c0c;
+    color: white;
+  }
+  footer a {
+    color: white;
+  }
+  footer .footerContent {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+  }
+  footer .footerContent h1 {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  footer .footerContent div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0px;
+  }
+  footer .footerContent div span {
+    margin-bottom: 10px;
+  }
+  .heroSection {
+    margin-top: 0px;
+    display: block;
+  }
+  .heroSection .heroLeft {
+    width: 100%;
+    padding-right: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .heroSection .heroLeft .heroMainImage {
+    width: 100%;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    max-height: 350px;
+  }
+  .heroSection .heroLeft p {
+    margin: 0px;
+  }
+  .heroSection .heroLeft h2 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .heroSection .heroLeft .descriptionText {
+    color: #919191;
+  }
+  .heroSection .heroLeft div {
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  .heroSection .heroLeft .postedDate {
+    color: #919191;
+    margin-right: 20px;
+  }
+  .heroSection .heroRight {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: "row";
+            flex-direction: "row";
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
